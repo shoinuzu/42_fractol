@@ -1,0 +1,16 @@
+tar -xf  minilibx-linux.tar
+
+cd minilibx-linux
+
+make
+
+cd ..
+
+make
+
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+
+printf "${GREEN} ALL GOOD!!!\n RUN : ./fract-ol (name of set: julia | mandelbrot) (res in pixels ex: 720) 0 0\n commands:\nw->\tzoom in\ns->\tzoom out\narrow keys->\tdisplay move\ne,d,r,f->\tjulia set complex management\nesc->\tquit\n${NC}"
+
